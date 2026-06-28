@@ -3,7 +3,7 @@ import { CONTACTS, waLink } from '../data';
 const EXPLORE = [
   ['About', '#about'],
   ['Menu', '#menu'],
-  ['Gallery', '#gallery'],
+  ['Why Us', '#why'],
   ['Contact', '#contact'],
 ];
 
@@ -54,7 +54,7 @@ export default function Footer() {
 
       <div className="max-w-6xl mx-auto border-t border-cream/10 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm text-cream/50">
         <p>© 2026 Ami's Bake House. All rights reserved.</p>
-        <p>Made with 🤎 & a lot of chocolate.</p>
+        <p>Made with love & a lot of chocolate.</p>
       </div>
     </footer>
   );

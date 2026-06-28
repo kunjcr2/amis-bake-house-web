@@ -5,7 +5,6 @@ const LINKS = [
   ['About', '#about'],
   ['Menu', '#menu'],
   ['Why Us', '#why'],
-  ['Gallery', '#gallery'],
   ['Contact', '#contact'],
 ];
 
@@ -67,7 +66,7 @@ export default function Navbar() {
           href="#contact"
           className="hidden lg:inline-flex items-center gap-2 bg-choco text-cream px-5 py-2.5 rounded-full text-sm font-semibold shadow-lg hover:bg-caramel hover:text-choco-dark hover:scale-105 transition-all"
         >
-          Order Now 🤎
+          Order Now
         </a>
 
         <button
@@ -109,7 +108,7 @@ export default function Navbar() {
               href="#contact"
               className="block text-center bg-choco text-cream px-4 py-3 rounded-xl font-semibold mt-1"
             >
-              Order Now 🤎
+              Order Now
             </a>
           </li>
         </ul>

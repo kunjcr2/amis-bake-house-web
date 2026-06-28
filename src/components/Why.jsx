@@ -1,12 +1,23 @@
 import { FEATURES } from '../data';
 
+const ICONS = {
+  home: (
+    <path d="M3 11.5 12 4l9 7.5M5 10v10h14V10M9.5 20v-6h5v6" />
+  ),
+  leaf: (
+    <path d="M4 20c0-9 7-15 16-15 0 9-6 16-15 16-1 0-1-1-1-1zM9 15c2.5-3 5.5-5 9-6" />
+  ),
+  truck: (
+    <path d="M3 6h11v9H3zM14 9h4l3 3v3h-7zM7.5 18.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM17.5 18.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+  ),
+  gift: (
+    <path d="M4 11h16v9H4zM4 7h16v4H4zM12 7v13M12 7C12 7 10 3 8 4.5 6.5 5.6 9 7 12 7zM12 7C12 7 14 3 16 4.5 17.5 5.6 15 7 12 7z" />
+  ),
+};
+
 export default function Why() {
   return (
     <section id="why" className="py-24 px-5 bg-choco relative overflow-hidden">
-      <div
-        className="absolute inset-0 opacity-10 bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/3.jpeg')" }}
-      />
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center mb-14 reveal">
           <p className="font-script text-gold text-2xl">Why you'll love us</p>
@@ -19,7 +30,11 @@ export default function Why() {
               className="reveal bg-cream/5 backdrop-blur border border-cream/15 rounded-3xl p-7 text-center hover:bg-cream/10 hover:-translate-y-1.5 transition-all"
               style={{ transitionDelay: `${i * 80}ms` }}
             >
-              <div className="text-5xl mb-4">{f.icon}</div>
+              <div className="mx-auto mb-5 w-14 h-14 rounded-full border border-gold/50 flex items-center justify-center text-gold">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                  {ICONS[f.icon]}
+                </svg>
+              </div>
               <h3 className="font-display text-xl font-bold text-gold mb-2">{f.title}</h3>
               <p className="text-cream/75 text-sm leading-relaxed">{f.text}</p>
             </div>

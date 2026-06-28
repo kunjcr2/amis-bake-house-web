@@ -9,7 +9,7 @@ export default function Contact() {
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-choco mt-1">Get in Touch</h2>
           <p className="text-choco-mid mt-3 max-w-xl mx-auto">
             We're a home bakery offering local delivery & pickup. Message either of us on WhatsApp or call —
-            we'd love to bake something special for you. 🤎
+            we'd love to bake something special for you.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function Contact() {
             Hampers, bulk boxes, festive specials & gifting — we love a happy occasion.
           </p>
           <a
-            href={waLink(CONTACTS[0].phone, "Hi Ami's Bake House! I'd like to place a custom order 🎉")}
+            href={waLink(CONTACTS[0].phone, "Hi Ami's Bake House! I'd like to place a custom order.")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-gold text-choco-dark px-8 py-3.5 rounded-full font-semibold hover:bg-cream hover:scale-105 transition"
