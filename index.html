@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/assets/7.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ami's Bake House · Home Made Happiness</title>
+    <meta
+      name="description"
+      content="Ami's Bake House — fresh, home-baked brownies, fudge & treats made with love. Home Made Happiness, est. 2026. Local delivery & pickup."
+    />
+
+    <!-- Tailwind Play CDN (as requested) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              choco: { DEFAULT: '#3b2417', dark: '#2a1810', mid: '#5a3825', light: '#8a5a3c' },
+              caramel: '#c98a4b',
+              gold: '#e0a86a',
+              cream: { DEFAULT: '#fbf3e9', dark: '#f3e4d3', deep: '#ecd9c2' },
+              blush: '#f7e9dc',
+            },
+            fontFamily: {
+              display: ['"Playfair Display"', 'serif'],
+              body: ['Poppins', 'sans-serif'],
+              script: ['"Dancing Script"', 'cursive'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-body text-choco antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
