@@ -1,5 +1,7 @@
 # Ami's Bake House 🤎
 
+**Note:** Kindly ignore this project, this is for my Mom ❤️. 
+
 > **Home Made Happiness** · Est. 2026
 
 Marketing website for **Ami's Bake House** — a home bakery serving fresh, small-batch
