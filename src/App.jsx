@@ -1,6 +1,7 @@
 import useReveal from './hooks/useReveal';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import CallBar from './components/CallBar';
 import About from './components/About';
 import Menu from './components/Menu';
 import Why from './components/Why';
@@ -16,6 +17,7 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
+      <CallBar />
       <About />
       <Menu />
       <Why />
