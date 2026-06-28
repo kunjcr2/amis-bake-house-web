@@ -1,16 +1,48 @@
-# React + Vite
+# Ami's Bake House 🤎
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Home Made Happiness** · Est. 2026
 
-Currently, two official plugins are available:
+Marketing website for **Ami's Bake House** — a home bakery serving fresh, small-batch
+brownies, fudge and treats with local delivery & pickup. Built with **Vite + React** and
+**Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Full-screen hero slideshow (Ken Burns zoom), responsive for phone & laptop
+- About / story section
+- Product menu with images, descriptions & prices
+- "Why Us" highlights and a masonry photo gallery with lightbox
+- Contact section for **Ami** & **Rakhi** with WhatsApp + call buttons
+- Floating WhatsApp order button and scroll-in animations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the Oxlint configuration
+```bash
+npm install
+npm run dev      # start dev server (http://localhost:5173)
+npm run build    # production build into dist/
+npm run preview  # preview the production build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🗂️ Project Structure
+
+```
+├─ index.html              # Tailwind CDN config + Google Fonts + brand theme
+├─ public/assets/          # bakery photos (1–7) + Ami.png / Rakhi.png
+└─ src/
+   ├─ App.jsx
+   ├─ data.js              # all editable content: products, prices, contacts
+   ├─ hooks/useReveal.js   # scroll-in reveal animations
+   └─ components/          # Navbar, Hero, About, Menu, Why, Gallery, Contact, Footer …
+```
+
+## ✏️ Customizing
+
+- **Content & prices** — edit `src/data.js` (single source of truth).
+- **Contact photos** — drop `Ami.png` and `Rakhi.png` into `public/assets/`
+  (initials avatars are shown automatically until then).
+- **Theme colors** — adjust the Tailwind config in `index.html`.
+
+---
+
+Made with 🤎 & a lot of chocolate.
