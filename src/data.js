@@ -14,16 +14,19 @@ export const HERO_IMAGES = ['/assets/1.jpeg', '/assets/4.jpeg', '/assets/2.jpeg'
 
 export const PRODUCTS = [
   {
+    img: '/assets/4.jpeg',
     name: 'Walnut Fudge',
     desc: 'Dense, glossy dark-chocolate fudge crowned with crunchy walnuts.',
     price: '₹1200 / kg',
   },
   {
+    img: '/assets/1.jpeg',
     name: 'Walnut Brownie',
     desc: 'Fudgy, rich brownie loaded with toasted walnuts.',
     price: '₹1300 / kg',
   },
   {
+    img: '/assets/2.jpeg',
     name: 'Fudge Brownie',
     desc: 'Our most indulgent — a brownie with a molten fudge heart.',
     price: '₹1600 / kg',
