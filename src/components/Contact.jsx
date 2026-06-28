@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14 reveal">
           <p className="font-script text-caramel text-2xl">Let's bake your order</p>
-          <h2 className="font-display text-4xl sm:text-5xl font-bold text-choco mt-1">Get in Touch</h2>
+          <h2 className="font-display text-4xl sm:text-5xl font-semibold text-choco mt-1">Get in Touch</h2>
           <p className="text-choco-mid mt-3 max-w-xl mx-auto">
             We're a home bakery offering local delivery & pickup. Message either of us on WhatsApp or call —
             we'd love to bake something special for you.
@@ -17,7 +17,7 @@ export default function Contact() {
           {CONTACTS.map((c) => (
             <div
               key={c.name}
-              className="reveal bg-gradient-to-b from-cream to-cream-deep rounded-3xl p-8 text-center shadow-[0_10px_40px_rgba(58,36,23,.12)] border border-gold/30 hover:-translate-y-1.5 transition"
+              className="reveal bg-cream rounded-2xl p-8 text-center border border-cream-deep shadow-[0_6px_24px_rgba(58,36,23,.07)] hover:-translate-y-1 transition"
             >
               <div className="relative inline-block">
                 <img
@@ -36,7 +36,7 @@ export default function Contact() {
                   title="Available on WhatsApp"
                 />
               </div>
-              <h3 className="font-display text-2xl font-bold text-choco mt-4">{c.name}</h3>
+              <h3 className="font-display text-2xl font-semibold text-choco mt-4">{c.name}</h3>
               <p className="text-caramel text-sm font-medium">{c.role}</p>
               <p className="text-choco-mid mt-3 tracking-wide">+91 {c.phone}</p>
               <div className="flex gap-3 justify-center mt-5">
@@ -59,18 +59,18 @@ export default function Contact() {
           ))}
         </div>
 
-        <div className="reveal mt-12 text-center bg-choco rounded-3xl p-8 max-w-3xl mx-auto">
-          <p className="font-display text-2xl text-cream">Got a custom order or a celebration coming up?</p>
-          <p className="text-cream/70 mt-2 mb-5">
-            Hampers, bulk boxes, festive specials & gifting — we love a happy occasion.
+        <div className="reveal mt-14 text-center max-w-2xl mx-auto">
+          <p className="font-display text-2xl text-choco">Got a custom order or a celebration coming up?</p>
+          <p className="text-choco-mid mt-2 mb-6">
+            Hampers, bulk boxes & gifting — we'd love to bake for your occasion.
           </p>
           <a
             href={waLink(CONTACTS[0].phone, "Hi Ami's Bake House! I'd like to place a custom order.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-gold text-choco-dark px-8 py-3.5 rounded-full font-semibold hover:bg-cream hover:scale-105 transition"
+            className="inline-block bg-choco text-cream px-8 py-3.5 rounded-full font-medium hover:bg-caramel hover:text-choco-dark transition-colors"
           >
-            Start a WhatsApp Order →
+            Start a WhatsApp Order
           </a>
         </div>
       </div>

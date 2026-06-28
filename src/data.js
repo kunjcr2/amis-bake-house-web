@@ -1,8 +1,8 @@
 // ---- Brand & content data for Ami's Bake House ----
 
 export const CONTACTS = [
-  { name: 'Ami Shah', role: 'Founder & Head Baker', phone: '9825084665', img: '/assets/Ami.jpeg' },
-  { name: 'Rakhi Shah', role: 'Co-Founder & Baker', phone: '9824501720', img: '/assets/Rakhi.jpeg' },
+  { name: 'Ami', role: 'Founder & Baker', phone: '9825084665', img: '/assets/Ami.jpeg' },
+  { name: 'Rakhi', role: 'Co-Founder & Baker', phone: '9824501720', img: '/assets/Rakhi.jpeg' },
 ];
 
 export const waLink = (phone, text) =>

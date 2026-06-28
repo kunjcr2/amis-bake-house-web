@@ -3,7 +3,7 @@ export default function About() {
     <section id="about" className="py-24 px-5 bg-cream relative overflow-hidden">
       <div className="max-w-3xl mx-auto text-center reveal">
         <p className="font-script text-caramel text-2xl">Our little story</p>
-        <h2 className="font-display text-4xl sm:text-5xl font-bold text-choco mt-1 mb-8">
+        <h2 className="font-display text-4xl sm:text-5xl font-semibold text-choco mt-1 mb-8">
           A pinch of love in <span className="text-caramel italic">every bite</span>
         </h2>
 

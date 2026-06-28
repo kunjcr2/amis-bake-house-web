@@ -2,11 +2,11 @@ import { PRODUCTS, FUDGE_FLAVOURS, CONTACTS, waLink } from '../data';
 
 export default function Menu() {
   return (
-    <section id="menu" className="py-24 px-5 bg-gradient-to-b from-cream-dark to-cream">
+    <section id="menu" className="py-24 px-5 bg-cream-dark">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14 reveal">
           <p className="font-script text-caramel text-2xl">Freshly baked</p>
-          <h2 className="font-display text-4xl sm:text-5xl font-bold text-choco mt-1">Our Menu</h2>
+          <h2 className="font-display text-4xl sm:text-5xl font-semibold text-choco mt-1">Our Menu</h2>
           <p className="text-choco-mid mt-3 max-w-xl mx-auto">
             Baked fresh to order, sold by the kilo. Message us for custom boxes & bulk orders.
           </p>
@@ -16,8 +16,8 @@ export default function Menu() {
           {PRODUCTS.map((p, i) => (
             <div
               key={p.name}
-              className="reveal group bg-cream rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,36,23,.10)] hover:shadow-[0_20px_50px_rgba(58,36,23,.22)] hover:-translate-y-2 transition-all duration-500"
-              style={{ transitionDelay: `${i * 80}ms` }}
+              className="reveal group bg-cream rounded-2xl overflow-hidden border border-cream-deep shadow-[0_6px_24px_rgba(58,36,23,.07)] hover:shadow-[0_12px_32px_rgba(58,36,23,.13)] hover:-translate-y-1 transition-all duration-300"
+              style={{ transitionDelay: `${i * 70}ms` }}
             >
               <div className="relative overflow-hidden aspect-[4/3]">
                 <img
@@ -27,7 +27,7 @@ export default function Menu() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="font-display text-2xl font-bold text-choco">{p.name}</h3>
+                <h3 className="font-display text-2xl font-semibold text-choco">{p.name}</h3>
                 <p className="text-choco-mid text-sm mt-2 leading-relaxed">{p.desc}</p>
                 <div className="flex items-center justify-between mt-5">
                   <span className="font-semibold text-caramel text-lg">{p.price}</span>
@@ -46,14 +46,14 @@ export default function Menu() {
         </div>
 
         {/* Fudge flavours */}
-        <div className="reveal mt-14 text-center bg-choco rounded-3xl px-6 py-10">
-          <p className="font-script text-gold text-2xl">Pick your flavour</p>
-          <h3 className="font-display text-3xl font-bold text-cream mt-1 mb-7">Fudge Flavours</h3>
+        <div className="reveal mt-16 text-center">
+          <p className="font-script text-caramel text-2xl">Pick your flavour</p>
+          <h3 className="font-display text-3xl font-semibold text-choco mt-1 mb-7">Fudge Flavours</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {FUDGE_FLAVOURS.map((f) => (
               <span
                 key={f}
-                className="bg-cream/10 border border-gold/40 text-cream px-5 py-2.5 rounded-full text-sm font-medium tracking-wide"
+                className="bg-cream border border-gold/50 text-choco px-5 py-2.5 rounded-full text-sm font-medium tracking-wide"
               >
                 {f}
               </span>

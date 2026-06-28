@@ -26,26 +26,24 @@ export default function Hero() {
           />
         </div>
       ))}
-      <div className="absolute inset-0 bg-gradient-to-b from-choco-dark/70 via-choco-dark/55 to-choco-dark/85" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,rgba(42,24,16,.6))]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-choco-dark/45 via-choco-dark/35 to-choco-dark/65" />
 
-      <div className="relative z-10 text-center px-5 max-w-3xl">
-        <p className="reveal font-script text-gold text-2xl sm:text-3xl mb-3 animate-float">
-          Home Made Happiness · Est. 2026
+      <div className="relative z-10 text-center px-5 max-w-2xl">
+        <p className="reveal font-script text-gold text-2xl sm:text-3xl mb-3">
+          Home Made Happiness
         </p>
-        <h1 className="reveal font-display text-5xl sm:text-7xl font-bold text-cream text-shadow-soft leading-[1.05]">
+        <h1 className="reveal font-display text-5xl sm:text-7xl font-semibold text-cream text-shadow-soft leading-[1.08]">
           Baked Fresh,
           <br />
-          <span className="text-gold italic">Made with Love</span>
+          <span className="text-gold italic font-medium">Made with Love</span>
         </h1>
-        <p className="reveal mt-6 text-cream/90 text-base sm:text-xl max-w-xl mx-auto font-light">
-          Indulgent brownies, melt-in-your-mouth fudge & little treats — handcrafted in small batches at{' '}
-          <span className="font-medium text-gold">Ami's Bake House</span>.
+        <p className="reveal mt-6 text-cream/85 text-base sm:text-lg max-w-md mx-auto font-light">
+          Small-batch brownies & fudge, handcrafted at Ami's Bake House.
         </p>
         <div className="reveal mt-9 flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#menu"
-            className="bg-gold text-choco-dark px-8 py-4 rounded-full font-semibold shadow-2xl hover:bg-cream hover:scale-105 transition-all"
+            className="bg-gold text-choco-dark px-8 py-3.5 rounded-full font-medium shadow-lg hover:bg-cream transition-colors"
           >
             View Our Menu
           </a>
@@ -53,7 +51,7 @@ export default function Hero() {
             href={waLink(CONTACTS[0].phone)}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-cream/10 backdrop-blur border border-cream/40 text-cream px-8 py-4 rounded-full font-semibold hover:bg-cream/20 hover:scale-105 transition-all"
+            className="bg-cream/10 backdrop-blur border border-cream/40 text-cream px-8 py-3.5 rounded-full font-medium hover:bg-cream/20 transition-colors"
           >
             Order on WhatsApp
           </a>
