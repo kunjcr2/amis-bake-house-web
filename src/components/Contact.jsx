@@ -62,7 +62,8 @@ export default function Contact() {
         <div className="reveal mt-14 text-center max-w-2xl mx-auto">
           <p className="font-display text-2xl text-choco">Got a custom order or a celebration coming up?</p>
           <p className="text-choco-mid mt-2 mb-6">
-            Hampers, bulk boxes & gifting — we'd love to bake for your occasion.
+            Custom packing for gifts & desserts is available on demand — hampers, bulk boxes & festive
+            gifting, put together just the way you need.
           </p>
           <a
             href={waLink(CONTACTS[0].phone, "Hi Ami's Bake House! I'd like to place a custom order.")}

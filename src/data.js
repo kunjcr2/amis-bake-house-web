@@ -39,5 +39,5 @@ export const FEATURES = [
   { icon: 'home', title: 'Truly Home-Made', text: 'Baked fresh in small batches in our own kitchen — never mass-produced.' },
   { icon: 'leaf', title: 'Quality Ingredients', text: 'Real butter, premium cocoa, fresh walnuts. No shortcuts, no preservatives.' },
   { icon: 'truck', title: 'Local Delivery', text: 'Fresh from our oven to your doorstep with safe, local delivery & pickup.' },
-  { icon: 'gift', title: 'Made for Gifting', text: 'Beautifully packed boxes for birthdays, festivals & little joys.' },
+  { icon: 'gift', title: 'Custom Gift Packing', text: 'Special packaging for gifts & desserts, put together on demand for your occasion.' },
 ];
