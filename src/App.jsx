@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CallBar from './components/CallBar';
 import About from './components/About';
+import Wholesome from './components/Wholesome';
 import Menu from './components/Menu';
 import Why from './components/Why';
 import Quote from './components/Quote';
@@ -19,6 +20,7 @@ export default function App() {
       <Hero />
       <CallBar />
       <About />
+      <Wholesome />
       <Menu />
       <Why />
       <Quote />

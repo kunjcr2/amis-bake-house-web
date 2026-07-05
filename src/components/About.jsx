@@ -20,7 +20,7 @@ export default function About() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-3">
-          {['100% Home-made', 'Fresh & Eggless options', 'No Preservatives'].map((t) => (
+          {['100% Home-made', 'Whole Wheat · No Maida', 'No Preservatives'].map((t) => (
             <span
               key={t}
               className="bg-cream-deep text-choco px-4 py-2 rounded-full text-sm font-medium border border-gold/40"
