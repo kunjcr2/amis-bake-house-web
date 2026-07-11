@@ -20,12 +20,12 @@ export default function App() {
       <Navbar />
       <Hero />
       <CallBar />
-      <About />
       <Wholesome />
       <Featured />
       <Menu />
       <Why />
       <Quote />
+      <About />
       <Contact />
       <Footer />
       <FloatingWA />

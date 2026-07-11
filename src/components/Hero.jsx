@@ -56,6 +56,26 @@ export default function Hero() {
             Order on WhatsApp
           </a>
         </div>
+
+        <a
+          href="#about"
+          className="reveal group mt-7 inline-flex items-center gap-2 text-cream/80 hover:text-gold text-sm font-medium tracking-wide transition-colors"
+        >
+          <span className="border-b border-cream/30 group-hover:border-gold transition-colors pb-0.5">
+            Read our story
+          </span>
+          <svg
+            className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
       </div>
 
       {/* Slide dots */}
