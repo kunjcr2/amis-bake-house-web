@@ -21,42 +21,52 @@ export const FEATURED = {
   points: ['Personalised with your name & message', 'Whole-wheat base — no maida', 'Made fresh to order'],
 };
 
+// Fudge is made without sugar; everything baked uses whole-wheat flour, never maida.
+export const BADGE_NO_SUGAR = 'No Sugar';
+export const BADGE_WHOLE_WHEAT = 'Whole Wheat · No Maida';
+
 export const PRODUCTS = [
   {
     img: '/assets/4.jpeg',
     name: 'Walnut Fudge',
     desc: 'Dense, glossy dark-chocolate fudge crowned with crunchy walnuts.',
     price: '₹1200 / kg',
+    badge: BADGE_NO_SUGAR,
   },
   {
     img: '/assets/1.jpeg',
     name: 'Walnut Brownie',
     desc: 'Fudgy, rich brownie loaded with toasted walnuts.',
     price: '₹1300 / kg',
+    badge: BADGE_WHOLE_WHEAT,
   },
   {
     img: '/assets/2.jpeg',
     name: 'Fudge Brownie',
     desc: 'Our most indulgent — a brownie with a molten fudge heart.',
     price: '₹1600 / kg',
+    badge: BADGE_WHOLE_WHEAT,
   },
   {
     img: '/assets/9.png',
     name: 'Red Velvet Cream Cheese Brownie',
     desc: 'Deep red velvet swirled with a tangy cream cheese marble.',
     price: '₹1500 / kg',
+    badge: BADGE_WHOLE_WHEAT,
   },
   {
     img: '/assets/10.png',
     name: 'Cookie Dough Walnut Brownie',
     desc: 'Chunks of cookie dough and toasted walnuts baked into a fudgy brownie.',
     price: '₹1300 / kg',
+    badge: BADGE_WHOLE_WHEAT,
   },
   {
     img: '/assets/8.png',
     name: 'Sugar-Free Dry Fruit Fudge',
     desc: 'No added sugar — sweetened only with dates and packed with almonds, cashews & seeds.',
     price: '₹1500 / kg',
+    badge: BADGE_NO_SUGAR,
   },
 ];
 

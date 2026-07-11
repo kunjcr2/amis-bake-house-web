@@ -25,6 +25,11 @@ export default function Menu() {
                   alt={p.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
+                {p.badge && (
+                  <span className="absolute top-3 left-3 bg-cream/95 backdrop-blur text-choco text-[11px] font-semibold tracking-wider uppercase px-3 py-1.5 rounded-full border border-gold/50 shadow-sm">
+                    {p.badge}
+                  </span>
+                )}
               </div>
               <div className="p-6">
                 <h3 className="font-display text-2xl font-semibold text-choco">{p.name}</h3>
