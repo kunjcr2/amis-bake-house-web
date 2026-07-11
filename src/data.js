@@ -12,6 +12,15 @@ export const waLink = (phone, text) =>
 
 export const HERO_IMAGES = ['/assets/1.jpeg', '/assets/4.jpeg', '/assets/2.jpeg', '/assets/3.jpeg'];
 
+export const FEATURED = {
+  img: '/assets/11.png',
+  name: 'Brownie Cake',
+  tagline: 'Our signature celebration cake',
+  desc: 'A rich, fudgy brownie baked as a full cake, finished with chocolate drizzle and made to order for birthdays, anniversaries and every occasion in between.',
+  price: '₹1500 / kg',
+  points: ['Personalised with your name & message', 'Whole-wheat base — no maida', 'Made fresh to order'],
+};
+
 export const PRODUCTS = [
   {
     img: '/assets/4.jpeg',
@@ -30,6 +39,24 @@ export const PRODUCTS = [
     name: 'Fudge Brownie',
     desc: 'Our most indulgent — a brownie with a molten fudge heart.',
     price: '₹1600 / kg',
+  },
+  {
+    img: '/assets/9.png',
+    name: 'Red Velvet Cream Cheese Brownie',
+    desc: 'Deep red velvet swirled with a tangy cream cheese marble.',
+    price: '₹1500 / kg',
+  },
+  {
+    img: '/assets/10.png',
+    name: 'Cookie Dough Walnut Brownie',
+    desc: 'Chunks of cookie dough and toasted walnuts baked into a fudgy brownie.',
+    price: '₹1300 / kg',
+  },
+  {
+    img: '/assets/8.png',
+    name: 'Sugar-Free Dry Fruit Fudge',
+    desc: 'No added sugar — sweetened only with dates and packed with almonds, cashews & seeds.',
+    price: '₹1500 / kg',
   },
 ];
 

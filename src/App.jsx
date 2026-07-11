@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import CallBar from './components/CallBar';
 import About from './components/About';
 import Wholesome from './components/Wholesome';
+import Featured from './components/Featured';
 import Menu from './components/Menu';
 import Why from './components/Why';
 import Quote from './components/Quote';
@@ -21,6 +22,7 @@ export default function App() {
       <CallBar />
       <About />
       <Wholesome />
+      <Featured />
       <Menu />
       <Why />
       <Quote />
