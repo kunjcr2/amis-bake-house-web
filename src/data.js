@@ -32,7 +32,7 @@ export const PRODUCTS = [
     img: '/assets/1.jpeg',
     name: 'Walnut Brownie',
     desc: 'Fudgy, rich brownie loaded with toasted walnuts.',
-    price: '₹1300 / kg',
+    price: '₹1500 / kg',
   },
   {
     img: '/assets/2.jpeg',
