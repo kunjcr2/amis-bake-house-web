@@ -26,13 +26,7 @@ export const BADGE_NO_SUGAR = 'No Sugar';
 export const BADGE_WHOLE_WHEAT = 'Whole Wheat · No Maida';
 
 export const PRODUCTS = [
-  {
-    img: '/assets/4.jpeg',
-    name: 'Walnut Fudge',
-    desc: 'Dense, glossy dark-chocolate fudge crowned with crunchy walnuts.',
-    price: '₹1200 / kg',
-    badge: BADGE_NO_SUGAR,
-  },
+  // ── Brownies ──
   {
     img: '/assets/1.jpeg',
     name: 'Walnut Brownie',
@@ -61,12 +55,28 @@ export const PRODUCTS = [
     price: '₹1300 / kg',
     badge: BADGE_WHOLE_WHEAT,
   },
+  // ── Fudges ──
+  {
+    img: '/assets/4.jpeg',
+    name: 'Walnut Fudge',
+    desc: 'Dense, glossy dark-chocolate fudge crowned with crunchy walnuts.',
+    price: '₹1200 / kg',
+    badge: BADGE_NO_SUGAR,
+  },
   {
     img: '/assets/8.png',
     name: 'Sugar-Free Dry Fruit Fudge',
     desc: 'No added sugar — sweetened only with dates and packed with almonds, cashews & seeds.',
     price: '₹1500 / kg',
     badge: BADGE_NO_SUGAR,
+  },
+  // ── Cakes ──
+  {
+    img: '/assets/11.png',
+    name: 'Brownie Cake',
+    desc: 'A rich, fudgy brownie baked as a full cake, finished with chocolate drizzle and made to order.',
+    price: '₹1500 / kg',
+    badge: BADGE_WHOLE_WHEAT,
   },
 ];
 
